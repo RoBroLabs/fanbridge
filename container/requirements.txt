@@ -11,5 +11,5 @@ click==8.4.2
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
-packaging==26.2
+packaging==26.3
 Werkzeug==3.1.8
