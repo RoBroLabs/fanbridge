@@ -1,6 +1,6 @@
 ## Build the browser assets from the committed lockfile.  Generated files in
 ## container/static/dist are intentionally not trusted as release inputs.
-FROM node:22-bookworm-slim@sha256:53ada149d435c38b14476cb57e4a7da73c15595aba79bd6971b547ceb6d018bf AS frontend-build
+FROM node:25-bookworm-slim@sha256:81db02c4b671288a03915da9534dbd54f96d0e7c24d80ccc54f5b36b2e684370 AS frontend-build
 
 WORKDIR /build
 COPY frontend/package.json frontend/package-lock.json ./frontend/
